@@ -1,0 +1,41 @@
+Angular  --> 업데이트 중단 (공식지원이 끝남)
+
+React --- 라이브러리  -- 개발자가 권한을 가지고 있음 -> 자유도가 높다
+특징
+ -> SPA (Single Page Application)
+ : 재활용성이 높다.
+ : 리액트 네이티브로의 학습이 용이하다
+
+Vue   --- 프레임워크  -- 프레임워크가 권한을 가지고 있음 -> 자유도가 적음
+
+
+지울것
+
+
+얀(yarn)
+-자바스크립트 패키지 매니저
+- npm 보다 성능(속도)와 보안성이 우수함
+
+설치명령어
+npm install -g yarn
+
+버전 확인
+yarn -v
+
+
+리액트 설치 주의사항
+1.상위 또는 현재 폴더 명이 "한글"로 되어있는 경우 -한글 불가
+2. node.js 버전이 LTS 가 아닌경우 오류
+
+리액트 앱 설치
+npx create-react-app [프로젝트명]
+예: npx create-react-app 01_practice
+
+	정상 설치 완료시
+	cd 01_my-app
+	npm start
+	를 입력하시오 라고 나옴
+	
+$cd 프로젝트명
+$npm start
+입력 시 리엑트 실행 완료
