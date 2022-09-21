@@ -15,6 +15,7 @@ class PropsDefault extends Component{
   }  
 }
 
+//app.js 에서 ReactString 또는 ReactNumber를 전달 받지 못할 때 사용할 기본값 정의
 PropsDefault.defaultProps={
   ReactString:"리액트",
   ReactNumber:400

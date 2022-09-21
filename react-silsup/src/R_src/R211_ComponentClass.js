@@ -1,4 +1,5 @@
 // 컴포넌트 사용(class형 컴포넌트)
+
 import React,{Component} from "react";
 
 class ComponentClass extends Component{

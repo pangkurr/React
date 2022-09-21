@@ -16,6 +16,9 @@ class PropsObjVal extends Component{
   }
 }
 
+//props 값을 객체로 하위 컴포넌트에 전달할 때
+//자료형을 object로 선언
+//객체 형태(객체의 내부 변수들)의 자료형을 선언할 때: shape 유형 사용
 PropsObjVal.propType={
   ObjectJson: datatype.shape({
     react: datatype.string,

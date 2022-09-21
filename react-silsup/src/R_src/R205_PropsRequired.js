@@ -7,7 +7,7 @@ class PropsRequired extends Component{
     let{
       ReactString,
       ReactNumber
-    }=this.props
+    }=this.props //지역변수 선언
     return(
       <div style={{padding:"0px"}}>
         {ReactString}{ReactNumber}
@@ -16,6 +16,9 @@ class PropsRequired extends Component{
   }  
 }
 
+
+//상위컴포넌트에서 `ReactString` 변수를 전달하지 않아 경고메시지 발생
+//Props에서 String을 전달하지 않았기 때문에 오류가 발생
 PropsRequired.protoTypes={
   ReactString: datatype.isRequired,
 }

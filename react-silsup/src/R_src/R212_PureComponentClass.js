@@ -1,4 +1,6 @@
 // PureComponent 사용(class형 컴포넌트)
+// PureComponent: 비교 대상의 값을 비교하여 동일하지 않으면 변경이 발생되었다고 판단
+//불필요한 render() 함수의 실행을 줄여서 페이지의 성능 향상 가능
 import React,{Component} from "react";
 
 class PureComponentClass extends Component{
@@ -18,6 +20,7 @@ class PureComponentClass extends Component{
     }
   }
 
+  // 객체 배열 변경을 누르면 render()함수를 호출한다.
   render(){
     console.log('render()실행');
     return(
