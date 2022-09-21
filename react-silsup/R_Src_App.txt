@@ -1,0 +1,127 @@
+return (
+  <div>
+    <h1>React</h1>
+    <Props props_val="PROPS"/>
+  </div>
+)
+
+return(
+  <div>
+    <h1>React</h1>
+    <PropsDatatype 
+      String="react"
+      Number={200}
+      Boolean={1==1}
+      Array={[0,1,8]}
+      ObjectJson={{react:"리액트", twohundred:"200"}}
+      Function={console.log("FunctionProps: function!")}
+    />
+  </div>
+)
+
+return (
+  <div>
+    <h1>React</h1>
+    <PropsBoolean BooleanTrueFalse={false}/>
+    <PropsBoolean BooleanTrueFalse />
+    
+  </div>
+)
+
+return (
+  <div>
+    <h1>React</h1>
+    <PropsObjVal ObjectJson={{react:"리액트",twohundred:"200"}}/>
+    
+  </div>
+)
+
+ return (
+  <div>
+    <h1>React</h1>
+    <PropsRequired ReactNumber={200}/>
+    
+  </div>
+)
+
+return (
+    <div>
+      <h1>React</h1>
+      <PropsDefault ReactNumber={200} />
+      
+    </div>
+  )
+
+return (
+  <div>
+    <h1>React</h1>
+    <p>CSS 적용하기</p>
+    <PropsNode>
+      <span>node from App.js</span>
+    </PropsNode>
+  </div>
+)
+
+return (
+    <div>
+      <h1>React</h1>
+      <SetState />
+    </div>
+  )
+
+return (
+    <div>
+      <h1>React</h1>
+      <ForceUpdate />
+    </div>
+  )
+
+return (
+    <div>
+      <h1>React</h1>
+      <ComponentClass />
+    </div>
+  )
+
+return (
+    <div>
+      <h1>React</h1>
+      <PureComponentClass />
+    </div>
+  )
+
+
+  return (
+    <div>
+      <h1>React</h1>
+      <ShallowEqual />
+    </div>
+  )
+
+  return (
+    <div>
+      <h1>React</h1>
+      <FunctionComponent contents="[FunctionComponent]" />
+    </div>
+  )
+
+  return (
+    <div>
+      <h1>React</h1>
+      <ReactHook />
+    </div>
+  )
+
+  return (
+    <div>
+      <h1>React</h1>
+      <Fragments />
+    </div>
+  )
+
+  return (
+    <div>
+      <h1>React</h1>
+      <ReturnMap />
+    </div>
+  )
