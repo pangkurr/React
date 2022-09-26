@@ -2,6 +2,7 @@
 import React,{Component} from 'react';
 import {Alert, UncontrolledAlert} from 'reactstrap'
 
+//color 속성 값 : primary, secondary,success,warning,danger,infor,light,dart
 class ReactstrapAlerts extends Component{
   render(){
     return(

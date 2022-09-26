@@ -2,6 +2,7 @@
 
 import React,{Component} from "react";
 import {Badge,Button} from "reactstrap";
+//Badge 패키지는 부모 요소에 추가로 특정 문자열이나 숫자를 표시할 때 사용한다.
 
 class ReactstrapBadges extends Component{
   render(){

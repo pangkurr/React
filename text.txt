@@ -39,3 +39,24 @@ npx create-react-app [프로젝트명]
 $cd 프로젝트명
 $npm start
 입력 시 리엑트 실행 완료
+
+
+
+
+
+최신 버전의 reactstrap을 노드 모듈에 추가하는 방법
+// --save 옵션은 node_module 안에 저장하겠다. 라는 말임.
+npm install --save [패키지명]
+npm install --save [패키지명]@[버전]
+
+예
+npm install --save reactstrap
+npm install --save reactstrap@8
+npm install --save bootstrap
+npm install --save bootstrap@4.6
+
+yarn add [패키지명]
+
+
+.js 말고 .jsx 로 저장하자
+.jsx = JavaScript + XML/HTML
