@@ -1,0 +1,21 @@
+<div>
+  <h1>React SweetAlert2</h1>
+  <src 명/>
+</div>
+
+src들
+
+<Sweetalert2Basic/>
+<Sweetalert2Position/>
+<Sweetalert2Confirm/>
+<FetchGet/>
+<FetchPost/>
+<AxiosGet/>
+<AxiosPost/>
+<CallbackFunc/>
+<R409_Promise/>
+<R410_Promise/>
+
+
+keyword로는 Promise 같은 함수명 사용 금지(오류남)
+
